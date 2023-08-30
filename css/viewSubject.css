@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.word{
+    padding: 15px;
+}
+
+.word h1{
+    color: #686767;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    background: #b1b0b0;
+    padding: 0px 20px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+.date_time{
+    float: right;
+    padding-top: 10px;
+}
+
+.date_time a{
+    text-decoration: none;
+    color: #000;
+}
+.header a i{
+    margin: 0 10px;
+    color: #000;
+}
+.Scl_In_setting{
+    background: rgb(25, 234, 25);
+    height: 45px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.text p a{
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 17px;
+}
+.text a i{
+    margin: 0 18px;    
+}
+.scl_icon{
+    float: right;
+    padding: 10px;
+}
+.scl_icon i{
+    text-decoration: none;
+    color: #000;
+}
+.class{
+    background: #050303;
+}
+.one{
+    width: 500px;
+    height: 90px;
+    background: rgb(200, 235, 248);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none !important;
+}
+
+.one h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #605f5f;
+    padding: 20px 0px 0px 25px;
+}
+.one h6{
+    float: left;
+    font-size: 15px;
+    font-weight: 300;
+    color: #000000;
+    padding: 3px 0px 0px 25px;
+}
+.one p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 25px;
+    /* padding: 0px 0px 0px 25px; */
+}
