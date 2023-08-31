@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background: #f52c2c;   
+    background: #e9e7e7 !important;   
 }
+
 
 .word{
     padding: 15px;
@@ -54,7 +55,7 @@ body{
     color: #000;
 }
 .class{
-    background: #eeecec;
+    background: #fff!important;
 }
 .Scl_In_setting{
     background: rgb(25, 234, 25);

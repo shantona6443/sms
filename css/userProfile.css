@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #e9e7e7 !important;   
+}
+
 
 .word{
     padding: 15px;
@@ -44,4 +48,7 @@
 .date_time a{
     text-decoration: none;
     color: #000;
+}
+.class{
+    background: #fff;
 }

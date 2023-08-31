@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #e8e4e4;   
+    background: #e9e7e7 !important;   
 }
 
 .word{
@@ -54,7 +54,7 @@ body{
     color: #000;
 }
 .class{
-    background: #ededed;
+    background: #b1b0b0;
 }
 .Scl_In_setting{
     background: rgb(25, 234, 25);

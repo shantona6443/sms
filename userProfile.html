@@ -25,15 +25,76 @@
             <a href=""><i class="fa-regular fa-calendar-days"></i>21 Nov,2022</a>
         </div>
     </div>
-
-    <ul class="nav nav-tabs  bg-success">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Overview</a>
+    <div class="class">
+    <ul class="nav nav-tabs bg-light" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">OverView</button>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Account</a>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Account</button>
       </li>
     </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="./images/face.png" alt="">
+           </div>
+           <div class="col-md-8">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">User profile</th>
+                  <th scope="col"><a href="#"><i class="fa-solid fa-arrows-rotate"></i></a></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>FIRST NAME</td>
+                  <td>Kermit J.</td>
+                </tr>
+                <tr>
+                  <td>LAST NAME</td>
+                  <td>Jakson</td>
+                </tr>
+                <tr>
+                  <td>USER NAME</td>
+                  <td>Headmaster</td>
+                </tr>
+                <tr>
+                  <td>PHONE NUMBER</td>
+                  <td>12345678912</td>
+                </tr>
+                <tr>
+                  <td>EMAIL</td>
+                  <td>admin@admin.com</td>
+                </tr>
+              </tbody>
+            </table>
+           </div>
+    
+          </div>
+        </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="mb-2">
+          <label for="exampleFormControlInput" class="form-label">First Name:</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="first name">
+        </div>
+        <div class="mb-2">
+          <label for="exampleFormControlInput" class="form-label">Last Name:</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="last name">
+        </div>
+        <div class="mb-2">
+          <label for="exampleFormControlInput" class="form-label">Phone Number:</label>
+          <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="phone number">
+        </div>
+        <div class="mb-2">
+          <label for="exampleFormControlInput" class="form-label">Email address:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+      </div>
+    </div>
+  </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>

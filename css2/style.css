@@ -3,12 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
-    background: #f40505;
-	padding: 0;
-	margin: 0;   
-} */
-
+body{
+    background: #fafafa !important;   
+}
 .word{
     padding: 15px;
 }

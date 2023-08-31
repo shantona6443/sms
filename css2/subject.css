@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #ffffff !important;   
+}
 
 .word{
     padding: 15px;
@@ -50,7 +53,9 @@
     margin: 0 10px;
     color: #000;
 }
-
+.class{
+    background: #b1b0b0 !important;
+}
 .Scl_In_setting{
     background: rgb(25, 234, 25);
     height: 45px;
@@ -59,11 +64,10 @@
     display: flex;
     justify-content: space-between;
 }
-.text p{
+.text p a{
     text-decoration: none;
     color: #1d1d1d;
     font-size: 17px;
-    padding-top: 10px;
 }
 .text a i{
     margin: 0 18px;    
@@ -76,6 +80,13 @@
     text-decoration: none;
     color: #000;
 }
-.subject{
-    background: #727171;
+.tec_btn{
+    float: right;
+}
+.tec_btn a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+	font-size: 16px;
+	font-weight: 500;
+	padding: 0px 10px;
 }

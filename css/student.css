@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
-    background: #f52c2c;   
-} */
+body{
+    background: #e9e7e7 !important;   
+}
 
 .word{
     padding: 15px;
@@ -13,7 +13,7 @@
 }
 
 .word h1{
-    color: #686767;
+    color: #323232;
     font-size: 25px;
     font-weight: 300;
 }
@@ -54,7 +54,8 @@
     color: #000;
 }
 .class{
-    background: #eeecec;
+    background: rgb(255, 252, 252) !important;
+    box-shadow: 0px 2px 2px 2px;
 }
 .Scl_In_setting{
     background: rgb(25, 234, 25);
